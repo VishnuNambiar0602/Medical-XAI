@@ -1,0 +1,143 @@
+{
+  "diseases": {
+    "common_cold": {
+      "name": "Common Cold",
+      "symptoms": ["cough", "runny nose", "sore throat", "sneezing", "congestion", "headache", "fatigue"],
+      "explanation": "The common cold is caused by viral infection. Your symptoms indicate inflammation of the respiratory tract. Rest, fluids, and over-the-counter medications can help manage symptoms."
+    },
+    "flu": {
+      "name": "Influenza (Flu)",
+      "symptoms": ["fever", "cough", "body aches", "fatigue", "sore throat", "headache", "chills"],
+      "explanation": "Flu is a viral infection affecting respiratory system. Your symptoms suggest potential influenza. Seek medical attention, especially if fever persists over 3 days."
+    },
+    "covid_19": {
+      "name": "COVID-19",
+      "symptoms": ["fever", "cough", "fatigue", "loss of taste", "loss of smell", "difficulty breathing", "chest pain"],
+      "explanation": "COVID-19 symptoms include respiratory and systemic signs. Your symptom combination is consistent with COVID-19. Get tested and consult healthcare provider immediately."
+    },
+    "allergies": {
+      "name": "Allergies",
+      "symptoms": ["sneezing", "itchy eyes", "runny nose", "congestion", "watery eyes", "itchy throat"],
+      "explanation": "Allergic reaction causes inflammation of nasal passages and airways. Your symptoms suggest environmental or seasonal allergies. Antihistamines and avoiding triggers may help."
+    },
+    "asthma": {
+      "name": "Asthma",
+      "symptoms": ["shortness of breath", "chest tightness", "wheezing", "cough", "difficulty breathing"],
+      "explanation": "Asthma involves airway inflammation and constriction. Your symptoms indicate potential asthma. Consult a pulmonologist for diagnosis and inhalers."
+    },
+    "bronchitis": {
+      "name": "Bronchitis",
+      "symptoms": ["persistent cough", "mucus production", "fatigue", "chest discomfort", "shortness of breath"],
+      "explanation": "Bronchitis involves inflammation of bronchial tubes. Your symptoms indicate airway inflammation. Allow time for recovery with rest and cough management."
+    },
+    "pneumonia": {
+      "name": "Pneumonia",
+      "symptoms": ["fever", "cough", "chest pain", "shortness of breath", "fatigue", "confusion", "liquid in lungs"],
+      "explanation": "Pneumonia is lung tissue inflammation from bacterial or viral infection. Your symptoms suggest pneumonia. Seek immediate medical attention for diagnosis and treatment."
+    },
+    "migraine": {
+      "name": "Migraine",
+      "symptoms": ["severe headache", "nausea", "sensitivity to light", "visual disturbances", "vomiting"],
+      "explanation": "Migraines involve vascular changes in the brain. Your symptoms indicate a migraine episode. Find quiet dark space and consider prescribed migraine medications."
+    },
+    "hypertension": {
+      "name": "High Blood Pressure",
+      "symptoms": ["headache", "dizziness", "chest pain", "shortness of breath", "vision changes"],
+      "explanation": "Hypertension strains the cardiovascular system. Your symptoms may indicate elevated blood pressure. Monitor BP regularly and consult a cardiologist."
+    },
+    "diabetes": {
+      "name": "Diabetes",
+      "symptoms": ["excessive thirst", "frequent urination", "fatigue", "blurred vision", "slow healing wounds"],
+      "explanation": "Diabetes affects blood sugar metabolism. Your symptoms suggest possible diabetes. Get blood glucose testing done by healthcare provider immediately."
+    },
+    "gastroenteritis": {
+      "name": "Gastroenteritis",
+      "symptoms": ["nausea", "vomiting", "diarrhea", "abdominal pain", "fever", "loss of appetite"],
+      "explanation": "Gastroenteritis is stomach and intestinal inflammation. Your symptoms indicate GI infection. Stay hydrated and rest; seek medical help if symptoms worsen."
+    },
+    "urinary_tract_infection": {
+      "name": "Urinary Tract Infection",
+      "symptoms": ["burning urination", "frequent urination", "cloudy urine", "abdominal pain", "fever"],
+      "explanation": "UTI is bacterial infection of urinary system. Your symptoms indicate UTI. Antibiotics prescribed by doctor are necessary for treatment."
+    },
+    "anxiety": {
+      "name": "Anxiety Disorder",
+      "symptoms": ["restlessness", "rapid heartbeat", "shortness of breath", "sweating", "nervousness", "trembling"],
+      "explanation": "Anxiety involves nervous system hyperactivity. Your symptoms suggest anxiety symptoms. Consider relaxation techniques and consult mental health professional."
+    },
+    "depression": {
+      "name": "Depression",
+      "symptoms": ["persistent sadness", "loss of interest", "fatigue", "sleep changes", "hopelessness", "concentration problems"],
+      "explanation": "Depression affects mood and motivation. Your symptoms indicate depressive signs. Professional mental health support and therapy are recommended."
+    },
+    "dermatitis": {
+      "name": "Dermatitis",
+      "symptoms": ["skin rash", "itching", "redness", "dry skin", "inflammation", "blistering"],
+      "explanation": "Dermatitis is skin inflammation from allergic or irritant response. Your symptoms indicate skin condition. Use gentle skincare and avoid irritants."
+    },
+    "thyroiditis": {
+      "name": "Thyroid Inflammation",
+      "symptoms": ["fatigue", "weight changes", "mood changes", "cold sensitivity", "dry hair"],
+      "explanation": "Thyroid dysfunction affects metabolism. Your symptoms may indicate thyroid issues. Get thyroid function tests done by endocrinologist."
+    }
+  },
+  "symptom_keywords": {
+    "cough": ["cough", "coughing", "persistent cough"],
+    "fever": ["fever", "high temperature", "temp", "hot"],
+    "fatigue": ["fatigue", "tired", "exhaustion", "weakness"],
+    "headache": ["headache", "head pain", "migraine"],
+    "nausea": ["nausea", "feeling sick", "queasy"],
+    "vomiting": ["vomiting", "throwing up", "puke"],
+    "shortness of breath": ["shortness of breath", "breathing difficulty", "breathless", "dyspnea"],
+    "chest pain": ["chest pain", "chest discomfort", "chest tightness"],
+    "sore throat": ["sore throat", "throat pain"],
+    "runny nose": ["runny nose", "nasal discharge"],
+    "sneezing": ["sneezing", "achoo"],
+    "congestion": ["congestion", "nasal congestion", "stuffy nose"],
+    "body aches": ["body aches", "muscle pain", "aches"],
+    "loss of taste": ["loss of taste", "taste gone", "anosmia"],
+    "loss of smell": ["loss of smell", "no smell", "can't smell"],
+    "difficulty breathing": ["difficulty breathing", "breath difficulty"],
+    "chills": ["chills", "shivering"],
+    "itchy eyes": ["itchy eyes", "eye itching"],
+    "watery eyes": ["watery eyes", "tearing"],
+    "itchy throat": ["itchy throat", "throat itching"],
+    "wheezing": ["wheezing", "whistling sound"],
+    "chest tightness": ["chest tightness", "tight chest"],
+    "mucus production": ["mucus", "phlegm", "sputum"],
+    "dizziness": ["dizziness", "dizzy", "vertigo"],
+    "vision changes": ["vision changes", "blurred vision"],
+    "excessive thirst": ["excessive thirst", "thirsty"],
+    "frequent urination": ["frequent urination", "urinary frequency"],
+    "blurred vision": ["blurred vision", "vision blur"],
+    "slow healing wounds": ["slow healing", "wound healing"],
+    "diarrhea": ["diarrhea", "loose stools"],
+    "abdominal pain": ["abdominal pain", "stomach pain", "belly pain"],
+    "loss of appetite": ["loss of appetite", "no appetite"],
+    "burning urination": ["burning urination", "painful urination", "dysuria"],
+    "cloudy urine": ["cloudy urine", "unclear urine"],
+    "restlessness": ["restlessness", "agitation", "nervousness"],
+    "rapid heartbeat": ["rapid heartbeat", "palpitations", "heart racing"],
+    "sweating": ["sweating", "perspiration"],
+    "trembling": ["trembling", "shaking", "tremors"],
+    "persistent sadness": ["sadness", "depressed", "sad"],
+    "loss of interest": ["loss of interest", "anhedonia"],
+    "sleep changes": ["sleep changes", "insomnia", "sleeping issues"],
+    "hopelessness": ["hopelessness", "hopeless"],
+    "concentration problems": ["concentration problems", "focus issues"],
+    "skin rash": ["skin rash", "rash", "eruption"],
+    "itching": ["itching", "itch", "pruritus"],
+    "redness": ["redness", "red skin", "erythema"],
+    "dry skin": ["dry skin", "dryness"],
+    "inflammation": ["inflammation", "inflamed"],
+    "blistering": ["blistering", "blisters"],
+    "weight changes": ["weight changes", "weight gain", "weight loss"],
+    "mood changes": ["mood changes", "mood swings"],
+    "cold sensitivity": ["cold sensitivity", "feeling cold"],
+    "dry hair": ["dry hair", "hair dryness"],
+    "sensitivity to light": ["sensitivity to light", "photophobia"],
+    "visual disturbances": ["visual disturbances", "visual problems"],
+    "liquid in lungs": ["liquid in lungs", "pulmonary edema", "fluid in lungs"],
+    "confusion": ["confusion", "confused", "delirium"]
+  }
+}
