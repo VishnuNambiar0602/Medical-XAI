@@ -85,7 +85,7 @@
     "cough": ["cough", "coughing", "persistent cough"],
     "fever": ["fever", "high temperature", "temp", "hot"],
     "fatigue": ["fatigue", "tired", "exhaustion", "weakness"],
-    "headache": ["headache", "head pain", "migraine"],
+    "headache": ["headache", "head pain", "migraine", "head hurts"],
     "nausea": ["nausea", "feeling sick", "queasy"],
     "vomiting": ["vomiting", "throwing up", "puke"],
     "shortness of breath": ["shortness of breath", "breathing difficulty", "breathless", "dyspnea"],
